@@ -1,2 +1,80 @@
-# system-analyst-portfolio
-Portfolio projects for business &amp; system analysis
+# FinTech System Analysis Case
+
+Учебный pet-project по системному анализу для финтех-систем.
+
+Проект демонстрирует:
+- анализ требований;
+- описание REST API;
+- работу с JSON;
+- синхронные и асинхронные интеграции;
+- описание RabbitMQ-событий;
+- BPMN/UML диаграммы;
+- аналитическую документацию.
+
+---
+
+# 📌 Сценарий проекта
+
+Сервис оформления кредитной заявки.
+
+Клиент:
+1. Создает заявку;
+2. Система отправляет данные в скоринг;
+3. Получает решение;
+4. Отправляет событие в RabbitMQ;
+5. Уведомляет клиента.
+
+---
+
+# 🛠 Используемые технологии и подходы
+
+- REST API
+- JSON
+- RabbitMQ
+- BPMN
+- UML
+- SQL
+- Git
+- Swagger/OpenAPI
+
+---
+
+# 📂 Структура проекта
+
+## Документация
+
+| File | Description |
+|---|---|
+| business-requirements.md | Бизнес-требования |
+| functional-requirements.md | Функциональные требования |
+| api-contract.md | API-контракт |
+| rabbitmq-events.md | Описание событий RabbitMQ |
+| user-story.md | User Stories и Acceptance Criteria |
+
+---
+
+## Диаграммы
+
+| Diagram | Description |
+|---|---|
+| BPMN | Бизнес-процесс подачи заявки |
+| Sequence Diagram | Взаимодействие систем |
+| ER Diagram | Структура данных |
+
+---
+
+# 🎯 Цель проекта
+
+Показать навыки системного анализа:
+- формализация требований;
+- описание интеграций;
+- работа с API;
+- моделирование процессов;
+- подготовка аналитической документации.
+
+---
+
+# 👨‍💻 Автор
+
+Марат Лабазанов  
+Junior System / Business Analyst
